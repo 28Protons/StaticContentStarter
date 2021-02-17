@@ -20,8 +20,8 @@ To create new content add {{FILE}}.html to the content directory
 * `/static` This is where the static page lives, it also contains all assets needed for style and scripting
 
 
-## Templates
-Files in the content folder that being with an underscore are considered templates. When a template is changes ALL files are recompiled. Templates can only be
+## Partial Templates
+Files in the content folder that begin with an underscore are considered partials. When a template is changed ALL files are recompiled. Templates can only be
 added by adjusting `compile.py`
 
 ## Usage Notes
