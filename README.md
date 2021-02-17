@@ -6,7 +6,7 @@ tutorial on Amazon Amplify. It is also quite useful as a really slim environment
 `docker-compose up web --force-recreate`
 
 ## Create A New Page
-To create new content add FILEN.html to the content directory
+To create new content add {{FILE}}.html to the content directory
 
 ## Notable Files
 * `run.sh`  Runs the python Webserver on port 8000 in the /static directory
