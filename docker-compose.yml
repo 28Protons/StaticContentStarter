@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    container_name: static-website
+    build: .
+    image: static-website
+    volumes:
+    - ./:/app
+    ports:
+      - 8000:8000
+    cap_add:
+      - SYS_PTRACE  #ptrace is helpful for local troubleshooting, this container is only for development, the security concern should not be an issue
