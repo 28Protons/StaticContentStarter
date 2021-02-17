@@ -9,7 +9,7 @@ tutorial we give on Amazon Amplify. It is also quite useful as a really slim env
 To create new content add {{FILE}}.html to the content directory
 
 ## Notable Files
-* `entrypoint.sh` Runs when the container starts, gets watch.sh and run.sh are running on the container
+* `entrypoint.sh` Runs when the container starts, ensures watch.sh and run.sh are running on the container
 * `run.sh`  Runs the python Webserver on port 8000 in the /static directory
 * `watch.sh` watches for file changes in the content directory and recompiles the layout and nav around the content
 * `compile.py`  Uses python templating for convenience, build static versions of content pages
