@@ -21,7 +21,7 @@ To create new content add {{FILE}}.html to the content directory
 
 
 ## Partial Templates
-Files in the content folder that begin with an underscore are considered partials. When a template is changed ALL files are recompiled. Templates can only be
+Files in the content folder that begin with an underscore are considered partials. When a partial template is changed ALL files are recompiled. Templates can only be
 added by adjusting `compile.py`
 
 ## Usage Notes
