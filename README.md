@@ -8,7 +8,7 @@ This solution was built to minimize effort to get started, if you have a working
 `docker-compose up web --force-recreate`
 
 ## Create A New Page
-To create new content add {{FILE}}.html to the content directory. FOr example if you want to add an About Us page.  Add about_us.html to the /content directory containing only the content that is specific to that page. The watcher on the container will automatically wrap _layout.html around it, place it in the /static directory and it should be available immediately at localhost:8000/about_us.html  
+To create new content add {{FILE}}.html to the content directory. For example if you want to add an About Us page.  Add about_us.html to the /content directory containing only the content that is specific to that page. The watcher on the container will automatically wrap _layout.html around it, place it in the /static directory and it should be available immediately at localhost:8000/about_us.html  
 
 You can add stylesheets and javascript directly to /static/assets to get the styles and interaction you want and add them to the _layout.html template. 
 
