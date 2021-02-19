@@ -1,6 +1,6 @@
-# Static Content Starter
-A very lightweight Pattern for building Static Website Content. This project is used as an example for some of our containerized development trainings as well as a
-tutorial we give on Amazon Amplify. It is also quite useful as a really slim environment for generating static content.
+# A Static Content Starter
+A Lightweight Pattern for building Static Website Content. This project is used as an example for some of our containerized development trainings as well as a
+tutorial about Amazon Amplify. It is also quite useful as a really slim environment for generating static content. There are lots of solutions available for developing static websites but this solution was built to minimize effort to get started and use dependies that are not likely to require regular updates to maintain the project. 
 
 ## Start Clean
 `docker-compose up web --force-recreate`
