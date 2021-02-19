@@ -1,4 +1,4 @@
-# StaticContentStarter
+# Static Content Starter
 A very lightweight Pattern for building Static Website Content. This project is used as an example for some of our containerized development trainings as well as a
 tutorial we give on Amazon Amplify. It is also quite useful as a really slim environment for generating static content.
 
