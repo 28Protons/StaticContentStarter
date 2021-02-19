@@ -1,5 +1,5 @@
 # A Static Content Starter
-A Lightweight Pattern for building Static Website Content. This project is used as an example for some of our containerized development trainings as well as a
+A lightweight pattern for building static website content. This project is used as an example for some of our containerized development trainings as well as a
 tutorial about Amazon Amplify. It is also quite useful as a really slim environment for generating static content. There are lots of solutions available for developing static websites and in most cases you should probably use one of them. But this solution was built to minimize effort to get started, focus on the benefits of out of the box containerization, have very few dependencies, and use libraries that are not likely to require regular updates to maintain the project. 
 
 ## Start Clean
